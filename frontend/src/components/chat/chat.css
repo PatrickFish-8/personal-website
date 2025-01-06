@@ -19,6 +19,13 @@
     padding: 2px 5px;
     border-radius: 50%;
     border-width: 0.2rem;
+    background-color: #B90E0A;
+    border-color: #fff;
+}
+
+.x:hover {
+    background-color: #680C07;
+    color: #fff;
 }
 
 .chatbot-response {
