@@ -9,7 +9,7 @@ function Profile() {
                 <p>Hello, I am</p>
                 <h2>Your Name</h2>
                 <p>Boston University Student</p>
-                <div class="icons">
+                <div className="icons">
                     <a target="_blank" href="https://linkedin.com/"><img id="linkedin-img" width="60" src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" /></a>
                     <a target="_blank" href="https://github.com/"><img id="github-img" width="60" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" /></a>
                 </div>

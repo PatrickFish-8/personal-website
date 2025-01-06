@@ -8,6 +8,7 @@ import { useState } from 'react'
 function About() {
     const [display, setDisplay] = useState('block')
     const [buttonText, setButtonText] = useState('Hide')
+
     function toggle() {
         if (display == 'none') {
             setDisplay('block')
@@ -17,6 +18,7 @@ function About() {
             setButtonText('Show')
         }
     }
+
     return (
         <div id="about">
             <h2>
