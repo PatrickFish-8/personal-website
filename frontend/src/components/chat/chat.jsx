@@ -15,7 +15,7 @@ function Chat() {
     async function getResponse() {
         try {
             if (!userInput) return
-            const response = await fetch('http://localhost:4000/chat', {
+            const response = await fetch('https://music-discussion-board-d5b0bbc66cc3.herokuapp.com/chat', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
